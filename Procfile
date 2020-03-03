@@ -1,1 +1,1 @@
-web: gunicorn app:pricing-service-2020
+web: uwsgi uwsgi.ini
